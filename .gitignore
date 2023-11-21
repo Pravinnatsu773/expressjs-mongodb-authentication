@@ -1,6 +1,5 @@
 .env
 private.ec.key
 public.pem
-
 .key
 .pem
