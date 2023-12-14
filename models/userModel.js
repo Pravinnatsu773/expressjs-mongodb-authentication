@@ -6,7 +6,6 @@ const userSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      // required: [true, "Please tell us your name!"],
     },
     email: {
       type: String,
@@ -14,23 +13,7 @@ const userSchema = new mongoose.Schema(
       unique: true,
       lowerCase: true,
     },
-    businesses:  [
-        {
-          
-          businessName: {
-            type: String,
-          },
-          businessType: {
-              type: String,
-          },
-          businessUrl: {
-              type: String,
-          },
-          businessPic: {
-              type: String,
-          },
-        },
-      ],
+
 
     password: {
       type: String,
